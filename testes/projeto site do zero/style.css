@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+@font-face {
+    font-family: 'Android';
+    src: url('../pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+:root{
+    --cor0:#6499df;
+    --cor1:#8FCBD9;
+    --cor2:#F2D091;
+    --cor3:#7700ff;
+    --cor4:#a071f8;
+    
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+    --font-android: 'Android', cursive;
+
+
+
+    
+}
+    a.externo::after{
+        content: '\00A\1F517';
+    }
+
+    *{
+        margin: 0px;   /* isso aqui foi pra tirar margem e os espaços */
+        padding: 0px;
+    }
+
+  main p{
+        
+        margin: 15px 0px;  /*deixou os paragrafos mais separados*/
+        text-align: justify;
+        text-indent: 30px;
+        font-size: 1.0em;
+        line-height: 2em;
+    }
+
+    main strong{
+        color: var(--cor4);
+        font-weight: bold;
+        
+    }
+main a:hover{
+    text-decoration: underline;
+    color: var(--cor3);
+}
+   main a{
+       text-decoration: none;
+       font-weight: bold;
+       color: var(--cor3);
+   } 
+body{
+    background-color: var(--cor0);
+    font-family: var(--font-padrao);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
+    background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    box-shadow: inset -1px 3px 6px 0px black;
+
+}
+header > p {
+    color: white;
+    font-family: var(--fonte-padrao);
+    font-size: 1.2em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 2px 2px 3px black;
+    
+}
+header > h1{
+    color: white;
+    font-family: var(--font-destaque);
+    text-shadow: 2px 2px 3px black;
+    margin-bottom: 20px;
+    font-size: 3em;
+    
+
+}
+
+ nav{
+     background-color: var(--cor4);
+     padding: 10px;
+     box-shadow: inset -1px 0px 3px 0px black;
+     text-shadow: 0px 2px 0px black
+ }
+ nav > a {
+     color: white;
+     padding: 10;
+     text-decoration: none;
+     font-weight: bold;
+     transition-duration: 0.5s; /*Quando mexer o mouse por cima vai fazer uma animação*/
+ }
+
+    nav >a:hover{
+        
+        color: #7700ff;
+       
+    }
+
+    div.video{
+        background-color: var(--cor0);
+        margin-top: 30px;
+        margin: 0px -20px 30px -20px ;
+        padding: 20px;
+        padding-bottom: 57.9% ;
+        position: relative;
+    }
+
+
+    div.video > iframe {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        width: 90%;
+        height: 90%;
+    }
+ main{
+     min-width:  300px;
+     max-width: 1000px;
+     background-color: white;
+     margin: auto;
+     margin-bottom: 30px;
+     border-radius: 0px 0px 10px 10px;
+     padding: 20px;
+     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.253);
+ }
+main h1{
+    color:#235670;
+    font-family: var(--font-android);
+    font-weight: normal;
+}
+main img{
+    width: 100%;
+}
+main h2{
+    font-family: var(--font-android);
+    color: #256585;
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #a57dd38e, transparent);
+    text-indent: 2px;
+    font-weight: normal;
+
+
+}
+main img.pequena{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: ;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+aside > h3 {
+    background-color: var(--cor0);
+    padding: 5px;
+    margin: -5px;
+    border-radius: 5px 5px 0px 0px;
+}
+aside > ul{
+    list-style-position: inside; /*Aqui colocou as bolinhas da lista pra dentro*/
+    columns: 2;                  /*Aqui foi colocado a lista em duas colunas*/   
+}
+aside{
+    background-color: #73e3eb86 ;
+    border-radius: 2px;
+    padding: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.459);;
+}
+
+li{
+    
+}

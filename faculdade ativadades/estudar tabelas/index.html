@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+         td, th{ 
+        border: 1px solid rgb(0, 0, 0); /* é usado pra colocar borda no td(dados da tabela)*/
+        text-align: center /*Posicionamento do TD*/
+        
+            }
+        table{
+            
+            width: 400px;  /*Largura*/
+            height: 400px; /*Altura*/
+            border-collapse: collapse; /* é usado pra tirar o espaço das linha da tabela e juntar tudo */
+           
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabelas</h1>
+    <table>
+        <tr>
+            <td rowspan="6">teste</td>
+        </tr>
+        <tr> 
+            <th>título 1</th> 
+            <th>título 2</th>
+            <th>título 3</th>
+        </tr>
+        <tr><!--Primeira linha, é usado pra criar linha da tabela-->
+            <td>A1</td> <!--é onde vocÊ vai colocar o dados da tabela-->
+            <td>B1</td>
+            <td>C1</td>
+        </tr> 
+        <TR> <!--Segunda linha-->
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </TR>
+        <TR> <!--Terceira linha-->
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </TR>
+        <tr>
+            <td colspan="3">teste colspan</td>
+        </tr>
+    </table>
+</body>
+</html>

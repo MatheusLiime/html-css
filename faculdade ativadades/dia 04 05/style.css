@@ -1,0 +1,28 @@
+#cabecalho{
+background-color: #348888;
+width: auto;
+padding: 40px;
+text-align: center;
+}
+
+#corpo{
+    background-color: #a922bb;
+    width: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+.sessao_conteudo{
+    background-color: #9EF8EE;
+    width: auto;
+    padding: 40px;
+    text-align: center;
+}
+
+#rodape{
+    background-color: black;
+    width: auto;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}

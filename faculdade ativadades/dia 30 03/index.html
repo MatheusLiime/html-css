@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Aula dia 30</title>
+</head>
+<body>
+
+    
+        
+        <fieldset>
+
+    <h3>Nome e Sexo</h3>
+    <form action="/action_page.php" target="_blank" method="get" autocomplete="on">
+        
+
+
+        
+        <label for="fname">Primeiro Nome:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <p>Sexo:</p>
+        <p>Masculino:<input type="radio" id="fradio" name="fradio"> </p>
+        <p>Feminino :<input type="radio" id="fradio" name="fradio"> </p>
+
+        <h3>Tipos de Veiculos que possui</h3>
+        <input type="checkbox" type="veiculo" id="teste" name="veiculo1">
+        <label for="veiculo">Bicicleta</label><br>
+        <input type="checkbox" type="veiculo" id="teste" name="veiculo2">
+        <label for="veiculo">Carro</label><br>
+        <input type="checkbox" type="veiculo" id="teste" name="veiculo3">
+        <label for="veiculo">Moto</label><br>
+        <br>
+        <label for="telefone">Entre com número de telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxx"> 
+        
+        <br>
+        <h3>Data de Nascimento</h3>
+        <label for="data"></label>
+        <input type="date" name="nascimento" id="nascimento">
+
+        <br>
+        
+        <h3>Email</h3>
+        <label for="email">Entre com seu Email:</label><br>
+        <input type="email" name="email" id="email">
+
+
+<br>
+<br>
+
+
+    <label for="Navegadores">Lista de navegadores</label><br>
+    <input list="Navegadores">
+    <datalist id="Navegadores">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Google Chrome">
+    <option value="Opera">
+    <option value="Safari">
+    </datalist>
+
+    <br><br><br>
+
+    <textarea name="informacoes" id="informacoes" cols="30" rows="10"></textarea>
+    <br><br>
+
+   
+
+
+        <input type="submit" value="Enviar">
+
+
+      </form>
+    </fieldset>
+
+   
+    
+</body>
+</html>

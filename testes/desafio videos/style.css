@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8AA6A3;
+    text-shadow: 2px 3px 1px black;
+}
+body{
+    background-color: #4C5958;
+}
+img{
+    box-shadow: 2px 2px 5px #8AA6A3;
+}
+iframe{
+    box-shadow: 2px 2px 5px #8AA6A3;
+}

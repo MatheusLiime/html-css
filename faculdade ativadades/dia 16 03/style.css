@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+h1{
+    font-family: arial;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: ;
+}
+
+div{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    padding: 160px;
+    border-radius: 20px;
+    box-shadow: 2px 1px 1px rgb(182, 182, 238);
+
+}
+
+body{
+    background-color: #7f6aad67;
+}

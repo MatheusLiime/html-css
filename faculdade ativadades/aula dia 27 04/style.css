@@ -1,0 +1,22 @@
+p {
+    color: red;
+}
+
+
+#p1{
+    color: yellow;
+}
+
+
+.txt{
+    color: brown;
+    font-size: 50px;
+}
+
+body{
+    background-color: blue;
+}
+
+div{
+    color: yellow;
+}
