@@ -1,0 +1,75 @@
+header{
+    background-color: #060d17;
+    height: 60px;
+    width: 300px;
+    color: rgb(8, 240, 228);
+}
+
+
+div.quadrado{
+    border: 1px solid rgb(0, 0, 0);
+    width: 50px;
+    height: 50px;
+    display: inline-block; /*pra deixar um do lado do outro*/ 
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+div#q1{
+    background-image: url('logos/417bVUqe0pL.png');
+    margin-left: 60px;
+}
+
+div#q2{
+    background-image: url('logos/unnamed\ \(1\).png');
+}
+div#q3{
+    background-image: url('logos/unnamed.png');
+}
+
+div#q4{
+    background-image: url('logos/6c506a9e69065a3c4f57c99d264e801b.jpg');
+}
+body{
+    background-color: #060d17;
+}
+
+nav{
+    background-color: #060d17;
+    height: 38px;
+    width: auto;
+    overflow: hidden;
+    padding: 2px;
+    
+    
+}
+nav > a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    padding-left: 60px;
+    margin: 0px;
+    font-style: ;
+}
+
+nav a:hover{
+    background-color: purple;
+    color: aqua;
+    text-decoration: none;
+}
+section{
+    background-color: aqua;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+header > h1{
+    padding-left: 20px ;
+    padding-top: 11px;
+}
