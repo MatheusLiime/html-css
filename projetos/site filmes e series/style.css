@@ -14,9 +14,75 @@ div.quadrado{
     border-radius: 10px;
     background-repeat: no-repeat;
     
-    
-    
-    
+}
+
+div.quadrado2{
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    width: 200px;
+    height: 301px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    transition: 1s;  
+}
+.quadrado2:hover{
+    transform: scale(1.3);
+    background-color: rgba(0, 255, 255, 0.103);
+}
+div#f1{
+    background-image: url('capa/lovecraft.jpg');
+    margin-top: 20px;
+    margin-left: 50px; 
+}
+div#f2{
+    background-image: url('capa/otempocomvoce.jpg');
+    margin-top: 20px;
+    margin-left: 10px; 
+
+}
+div#f3{
+    background-image: url('capa/attack.jpg');
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+div#f4{
+    background-image: url('capa/oddtaxi.jpg');
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+div#f5{
+    background-image: url('capa/tedlasso.jpg');
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+div#f6{
+    background-image: url('capa/theoffice.jpg');
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+div#f7{
+    background-image: url('capa/whatif.jpeg');
+    margin-top: 20px;
+    margin-left: 15px; 
+}
+div#f8{
+    background-image: url('capa/Untitled-1.jpg');
+    margin-top: 20px;
+    margin-left: 10px; 
+}
+div#f9{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+div#f17{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+div#f25{
+    margin-top: 20px;
+    margin-left: 60px;
 }
 div#q1{
     background-image: url('logos/417bVUqe0pL.png');
@@ -56,20 +122,27 @@ nav > a{
 }
 
 nav a:hover{
-    background-color: purple;
-    color: aqua;
+    
+    color: rgba(201, 204, 204, 0.74);
     text-decoration: none;
 }
 section{
-    background-color: aqua;
+    background-color: #060d17;
+    height: auto;
 }
 
 footer{
     background-color: black;
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 header > h1{
-    padding-left: 20px ;
+    padding-left: 60px ;
     padding-top: 11px;
+}
+
+a{
+    text-decoration: none;
 }
