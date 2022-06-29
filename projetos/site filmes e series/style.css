@@ -1,4 +1,7 @@
-
+*{
+  margin: 0px;   /* isso aqui foi pra tirar margem e os espaços */
+  padding: 0px;
+}
 
 div.quadrado{ /*logos dos sites*/
     border: 1px solid rgb(255, 255, 255);
@@ -10,15 +13,24 @@ div.quadrado{ /*logos dos sites*/
     flex-direction: wrap;
     
 }
-
+main{
+  background-color: white;
+  max-width: auto;
+  padding: 0px;
+  margin: auto;
+  border: rgba(0, 0, 0, 0.089) solid;
+  
+  
+}
 div.quadrado2{/*imagens do site*/
     border: 1px solid rgba(0, 0, 0, 0.171);
-    width: 170px;
+    width: 163px;
     height: 250px;
-    justify-content: space-around;
     display: inline-block;
     background-repeat: no-repeat;
     transition: 0.5s;  
+    margin-left: 0px;
+    margin-right: 5px;
     flex-direction: wrap; /*quando quebrar a linha e não ficar bagunçado as divs*/
     border-radius: 9px;
 }
@@ -27,21 +39,13 @@ div.quadrado2{/*imagens do site*/
     background-color: rgba(0, 255, 255, 0.082);
 }
 section{
-    background-color: #09121f00;
+    background-color: #006aff;
     height: auto;
     flex-direction: wrap;
     padding: 50px;
+    
 }
 
-footer{
-    background-color: black;
-    height: 50px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    flex-direction: wrap;
-
-}
 div#f1{
     background-image: url('capa/shang.jpg');
     
@@ -118,22 +122,10 @@ body{
 
 
 
-
-* {
-    margin: 0;
-    padding: 0;
-  }
   
-  a {
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-  }
+ 
   
-  * {
-    margin: 0;
-    padding: 0;
-  }
+ 
   
   a {
     color: #fff;
@@ -241,4 +233,5 @@ body{
   .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
   }
+  
   
